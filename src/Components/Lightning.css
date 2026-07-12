@@ -1,0 +1,64 @@
+.lightning-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.lightning {
+  position: absolute;
+  width: 3px;
+  height: 350px;
+  background: #ffffff;
+  box-shadow:
+    0 0 10px #00eaff,
+    0 0 25px #00eaff,
+    0 0 50px #00eaff;
+
+  opacity: 0;
+  transform: rotate(25deg);
+  animation: lightningFlash 5s infinite;
+}
+
+.lightning-one {
+  top: -50px;
+  left: 20%;
+}
+
+.lightning-two {
+  top: 100px;
+  right: 25%;
+  animation-delay: 2s;
+  transform: rotate(-30deg);
+}
+
+.lightning-three {
+  top: 300px;
+  left: 60%;
+  animation-delay: 4s;
+}
+
+@keyframes lightningFlash {
+  0%,
+  92%,
+  100% {
+    opacity: 0;
+  }
+
+  93% {
+    opacity: 1;
+  }
+
+  94% {
+    opacity: 0;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  97% {
+    opacity: 0;
+  }
+}
