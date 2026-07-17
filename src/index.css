@@ -160,7 +160,7 @@ body{
 /* About Section */
 .about {
   min-height: 80vh;
-  padding: 100px 8%;
+  padding: 120px;
   background: #070b18;
 }
 
@@ -171,31 +171,21 @@ body{
 }
 
 .section-title span {
-  color: #00eaff;
-  text-shadow: 0 0 15px #00eaff;
+  color: #72effa;
+  
 }
 
 .about-card {
-  max-width: 900px;
+  width: 900px;
   margin: auto;
   padding: 40px;
-  border: 1px solid rgba(0, 234, 255, 0.4);
+  border: 1px solid rgba(222, 227, 227, 0.4);
   border-radius: 20px;
-
-  background: rgba(255, 255, 255, 0.05);
--webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-  box-shadow: 0 0 30px rgba(0, 234, 255, 0.15);
-  transition: 0.4s;
-}
-
-.about-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 40px rgba(0, 234, 255, 0.4);
+ 
 }
 
 .about-card h3 {
-  color: #00eaff;
+  color: #519399;
   font-size: 28px;
   margin-bottom: 20px;
 }
