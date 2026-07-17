@@ -27,6 +27,8 @@
   border-radius: 20px;
   padding: 20px;
   transition: .4s;
+-webkit-backdrop-filter: blur(10px);
+
   backdrop-filter: blur(10px);
 }
 
