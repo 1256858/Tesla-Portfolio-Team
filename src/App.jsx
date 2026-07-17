@@ -5,6 +5,7 @@ import Inventions from "./Components/Inventions"
 import Timeline from "./Components/Timeline"
 import Footer from "./Components/Footer"
 import Lightning from "./Components/Lightning"
+import Products from "./Components/Products"
 
 function App(){
   return (
@@ -16,8 +17,9 @@ function App(){
     <About/>
     <Inventions/>
     <Timeline/>
-    <Footer/>
+    <Products/>
     <Lightning/>
+    <Footer/>
     </>
   ); 
 }
