@@ -2,7 +2,7 @@
   "name": "tesla-portofolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://1256858.github.io/Tesla-Portfolio",
+  "homepage": "https://1256858.github.io/Tesla-Portfolio-Team",
   "type": "module",
   "scripts": {
     "dev": "vite",
