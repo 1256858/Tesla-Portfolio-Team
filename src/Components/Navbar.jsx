@@ -1,6 +1,6 @@
-function Navbar(){
-return(
-<nav className="navbar">
+export default function Navbar({ darkMode, setdarkMode }) {
+  return (
+ <nav className="navbar">
 <h2 className="logo">Tesla⚡</h2>
 <ul className="nav-links">
 <li><a href="#home">Home</a></li>
@@ -10,8 +10,15 @@ return(
 
 <li><a href="#timeline">Timeline</a></li>
 
+
+      <button
+        className="theme-btn"
+        onClick={() => setdarkMode(!darkMode)}
+      >
+        {darkMode ? "☀️ Light" : "🌙 Dark"}
+      </button>
+
 </ul>
 </nav>
 )
 }
-export default Navbar;
